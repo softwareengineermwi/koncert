@@ -9,13 +9,15 @@
 }
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+@import url(cocogoose/Cocogoose\ Pro-trial.ttf);
+
 @font-face {
   font-family: cocogoose;
   src: url(cocogoose/Cocogoose\Pro-trial.ttf);
 }
 
 .cocogoose {
-  font-family: cocogoose;
+  font-family: 'cocogoose', sans-serif;
 }
 
 .lato {
@@ -222,7 +224,7 @@ svg {
 }
 
 .grid {
-  --gap: 0px;
+  --gap: 0;
   --gap-x: var(--gap);
   --gap-y: var(--gap);
   --offset: var(--gap-x);
