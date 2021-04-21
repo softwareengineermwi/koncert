@@ -5139,30 +5139,39 @@ html:not(.js) .no-js\:is-hidden {
   .bg-opacity-0 {
     --bg-o: 0;
   }
+
   .bg-opacity-10\% {
     --bg-o: 0.1;
   }
+
   .bg-opacity-20\% {
     --bg-o: 0.2;
   }
+
   .bg-opacity-30\% {
     --bg-o: 0.3;
   }
+
   .bg-opacity-40\% {
     --bg-o: 0.4;
   }
+
   .bg-opacity-50\% {
     --bg-o: 0.5;
   }
+
   .bg-opacity-60\% {
     --bg-o: 0.6;
   }
+
   .bg-opacity-70\% {
     --bg-o: 0.7;
   }
+
   .bg-opacity-80\% {
     --bg-o: 0.8;
   }
+
   .bg-opacity-90\% {
     --bg-o: 0.9;
   }
@@ -5178,16 +5187,6 @@ html:not(.js) .no-js\:is-hidden {
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.backdrop-blur-10 {
-  -webkit-backdrop-filter: blur(10);
-  backdrop-filter: blur(10);
-}
-
-.backdrop-blur-20 {
-  -webkit-backdrop-filter: blur(20);
-  backdrop-filter: blur(20);
 }
 
 .isolate {
