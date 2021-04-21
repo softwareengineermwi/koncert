@@ -228,7 +228,7 @@ svg {
   --gap-x: var(--gap);
   --gap-y: var(--gap);
   --offset: var(--gap-x);
-  
+
   display: flex;
   flex-wrap: wrap;
 }
