@@ -1,84 +1,4 @@
 /*! CSS Used from: http://127.0.0.1:5500/koncert/assets/style.css */
-
-*,
-*::after,
-*::before {
-  box-sizing: inherit;
-}
-
-* {
-  font: inherit;
-}
-
-.cocogoose {
-  font-family: "cocogoose", sans-serif;
-}
-
-.lato {
-  font-family: "Lato", sans-serif;
-}
-
-html,
-body,
-div,
-h1,
-h3,
-h4,
-h5,
-p,
-a,
-img,
-i,
-ul,
-li,
-footer,
-header,
-section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-html {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: var(--color-bg, white);
-}
-
-footer,
-header,
-section,
-main {
-  display: block;
-}
-
-ul {
-  list-style: none;
-}
-
-button {
-  margin: 0;
-}
-
-.btn {
-  background-color: transparent;
-  padding: 0;
-  border: 0;
-  border-radius: 0;
-  color: inherit;
-  line-height: inherit;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-}
-
-img,
-svg {
-  max-width: 100%;
-}
-
 :root {
   --max-width-xxxxs: 20rem;
   --max-width-xxxs: 26rem;
@@ -296,6 +216,88 @@ svg {
   --color-contrast-higher-l: 12%;
 }
 
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+* {
+  font: inherit;
+}
+
+.cocogoose {
+  font-family: "cocogoose", sans-serif;
+}
+
+.lato {
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body,
+div,
+h1,
+h3,
+h4,
+h5,
+p,
+a,
+img,
+i,
+ul,
+li,
+footer,
+header,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--color-bg, white);
+  font-size: var(--text-base-size, 1em);
+  font-family: var(--font-primary, sans-serif);
+  color: var(--color-contrast-high, #313135);
+}
+
+footer,
+header,
+section,
+main {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  margin: 0;
+}
+
+.btn {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  color: inherit;
+  line-height: inherit;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+img,
+svg {
+  max-width: 100%;
+}
+
 .container {
   width: calc(100% - 2 * var(--component-padding));
   margin-left: auto;
@@ -307,6 +309,7 @@ svg {
   --gap-x: var(--gap);
   --gap-y: var(--gap);
   --offset: var(--gap-x);
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -349,16 +352,11 @@ svg {
     flex-basis: calc(33.33% - 0.01px - var(--gap-x, 0.75em));
     max-width: calc(33.33% - 0.01px - var(--gap-x, 0.75em));
   }
+
   .col-8\@sm {
     flex-basis: calc(66.66% - 0.01px - var(--gap-x, 0.75em));
     max-width: calc(66.66% - 0.01px - var(--gap-x, 0.75em));
   }
-}
-
-body {
-  font-size: var(--text-base-size, 1em);
-  font-family: var(--font-primary, sans-serif);
-  color: var(--color-contrast-high, #313135);
 }
 
 h1,
