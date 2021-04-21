@@ -333,152 +333,189 @@ svg {
     margin-bottom: calc(-1 * var(--gap-y));
     margin-left: calc(-1 * var(--gap-x));
   }
+
   .grid > * {
     margin-bottom: var(--gap-y);
     margin-left: var(--offset);
   }
+
   .flex[class*="gap-"],
   .inline-flex[class*="gap-"] {
     margin-bottom: calc(-1 * var(--gap-y, 0));
     margin-left: calc(-1 * var(--gap-x, 0));
   }
+
   .flex[class*="gap-"] > *,
   .inline-flex[class*="gap-"] > * {
     margin-bottom: var(--gap-y, 0);
     margin-left: var(--gap-x, 0);
   }
+
   .gap-xxxxs,
   .grid-gap-xxxxs,
   .flex-gap-xxxxs {
     --gap-x: var(--space-xxxxs);
     --gap-y: var(--space-xxxxs);
   }
+
   .gap-xxxs,
   .grid-gap-xxxs,
   .flex-gap-xxxs {
     --gap-x: var(--space-xxxs);
     --gap-y: var(--space-xxxs);
   }
+
   .gap-xxs,
   .grid-gap-xxs,
   .flex-gap-xxs {
     --gap-x: var(--space-xxs);
     --gap-y: var(--space-xxs);
   }
+
   .gap-xs,
   .grid-gap-xs,
   .flex-gap-xs {
     --gap-x: var(--space-xs);
     --gap-y: var(--space-xs);
   }
+
   .gap-sm,
   .grid-gap-sm,
   .flex-gap-sm {
     --gap-x: var(--space-sm);
     --gap-y: var(--space-sm);
   }
+
   .gap-md,
   .grid-gap-md,
   .flex-gap-md {
     --gap-x: var(--space-md);
     --gap-y: var(--space-md);
   }
+
   .gap-lg,
   .grid-gap-lg,
   .flex-gap-lg {
     --gap-x: var(--space-lg);
     --gap-y: var(--space-lg);
   }
+
   .gap-xl,
   .grid-gap-xl,
   .flex-gap-xl {
     --gap-x: var(--space-xl);
     --gap-y: var(--space-xl);
   }
+
   .gap-xxl,
   .grid-gap-xxl,
   .flex-gap-xxl {
     --gap-x: var(--space-xxl);
     --gap-y: var(--space-xxl);
   }
+
   .gap-xxxl,
   .grid-gap-xxxl,
   .flex-gap-xxxl {
     --gap-x: var(--space-xxxl);
     --gap-y: var(--space-xxxl);
   }
+
   .gap-xxxxl,
   .grid-gap-xxxxl,
   .flex-gap-xxxxl {
     --gap-x: var(--space-xxxxl);
     --gap-y: var(--space-xxxxl);
   }
+
   .gap-x-xxxxs {
     --gap-x: var(--space-xxxxs);
   }
+
   .gap-x-xxxs {
     --gap-x: var(--space-xxxs);
   }
+
   .gap-x-xxs {
     --gap-x: var(--space-xxs);
   }
+
   .gap-x-xs {
     --gap-x: var(--space-xs);
   }
+
   .gap-x-sm {
     --gap-x: var(--space-sm);
   }
+
   .gap-x-md {
     --gap-x: var(--space-md);
   }
+
   .gap-x-lg {
     --gap-x: var(--space-lg);
   }
+
   .gap-x-xl {
     --gap-x: var(--space-xl);
   }
+
   .gap-x-xxl {
     --gap-x: var(--space-xxl);
   }
+
   .gap-x-xxxl {
     --gap-x: var(--space-xxxl);
   }
+
   .gap-x-xxxxl {
     --gap-x: var(--space-xxxxl);
   }
+
   .gap-y-xxxxs {
     --gap-y: var(--space-xxxxs);
   }
+
   .gap-y-xxxs {
     --gap-y: var(--space-xxxs);
   }
+
   .gap-y-xxs {
     --gap-y: var(--space-xxs);
   }
+
   .gap-y-xs {
     --gap-y: var(--space-xs);
   }
+
   .gap-y-sm {
     --gap-y: var(--space-sm);
   }
+
   .gap-y-md {
     --gap-y: var(--space-md);
   }
+
   .gap-y-lg {
     --gap-y: var(--space-lg);
   }
+
   .gap-y-xl {
     --gap-y: var(--space-xl);
   }
+
   .gap-y-xxl {
     --gap-y: var(--space-xxl);
   }
+
   .gap-y-xxxl {
     --gap-y: var(--space-xxxl);
   }
+
   .gap-y-xxxxl {
     --gap-y: var(--space-xxxxl);
   }
+
 }
 
 .col {
