@@ -291,6 +291,19 @@ button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+  line-height: 1;
+  font-size: var(--btn-font-size, 1em);
+  padding-top: var(--btn-padding-y, 0.5em);
+  padding-bottom: var(--btn-padding-y, 0.5em);
+  padding-left: var(--btn-padding-x, 0.75em);
+  padding-right: var(--btn-padding-x, 0.75em);
+  border-radius: var(--btn-radius, 0.25em);
 }
 
 img,
@@ -364,6 +377,7 @@ h3,
 h4 {
   color: var(--color-contrast-higher, #1c1c21);
   line-height: var(--heading-line-height, 1.2);
+  font-weight: 700;
 }
 
 h1 {
@@ -383,37 +397,12 @@ a {
   text-decoration: underline;
 }
 
-.text-component h3 {
-  line-height: calc(var(--heading-line-height) * var(--line-height-multiplier, 1));
-  margin-bottom: calc(var(--space-unit) * 0.25 * var(--text-vspace-multiplier, 1));
-}
-
-.text-component h3 {
-  margin-top: calc(var(--space-unit) * 0.75 * var(--text-vspace-multiplier, 1));
-}
-
 .text-component > *:first-child {
   margin-top: 0;
 }
 
 .text-component > *:last-child {
   margin-bottom: 0;
-}
-
-.btn {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  text-decoration: none;
-  line-height: 1;
-  font-size: var(--btn-font-size, 1em);
-  padding-top: var(--btn-padding-y, 0.5em);
-  padding-bottom: var(--btn-padding-y, 0.5em);
-  padding-left: var(--btn-padding-x, 0.75em);
-  padding-right: var(--btn-padding-x, 0.75em);
-  border-radius: var(--btn-radius, 0.25em);
 }
 
 .btn--lg {
@@ -592,6 +581,7 @@ a {
   .flex-column\@sm {
     flex-direction: column;
   }
+
   .hide\@sm {
     display: none !important;
   }
@@ -609,15 +599,15 @@ a {
   }
 }
 
-h1,
-h3,
-h4 {
-  font-weight: 700;
-}
-
 .text-component {
   --line-height-multiplier: 1;
   --text-vspace-multiplier: 1;
+}
+
+.text-component h3 {
+  line-height: calc(var(--heading-line-height) * var(--line-height-multiplier, 1));
+  margin-bottom: calc(var(--space-unit) * 0.25 * var(--text-vspace-multiplier, 1));
+  margin-top: calc(var(--space-unit) * 0.75 * var(--text-vspace-multiplier, 1));
 }
 
 .btn:hover {
