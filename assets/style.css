@@ -516,7 +516,6 @@ svg {
   .gap-y-xxxxl {
     --gap-y: var(--space-xxxxl);
   }
-
 }
 
 .col {
@@ -813,8 +812,8 @@ svg {
     }
 
     .gap-0\@xs {
-      --gap-x: 0px;
-      --gap-y: 0px;
+      --gap-x: 0;
+      --gap-y: 0;
     }
 
     .gap-x-xxxxs\@xs {
@@ -862,7 +861,7 @@ svg {
     }
 
     .gap-x-0\@xs {
-      --gap-x: 0px;
+      --gap-x: 0;
     }
 
     .gap-y-xxxxs\@xs {
@@ -910,7 +909,7 @@ svg {
     }
 
     .gap-y-0\@xs {
-      --gap-y: 0px;
+      --gap-y: 0;
     }
   }
 }
@@ -1093,8 +1092,8 @@ svg {
     }
 
     .gap-0\@sm {
-      --gap-x: 0px;
-      --gap-y: 0px;
+      --gap-x: 0;
+      --gap-y: 0;
     }
 
     .gap-x-xxxxs\@sm {
@@ -1142,7 +1141,7 @@ svg {
     }
 
     .gap-x-0\@sm {
-      --gap-x: 0px;
+      --gap-x: 0;
     }
 
     .gap-y-xxxxs\@sm {
@@ -1190,7 +1189,7 @@ svg {
     }
 
     .gap-y-0\@sm {
-      --gap-y: 0px;
+      --gap-y: 0;
     }
 
   }
@@ -1374,8 +1373,8 @@ svg {
     }
 
     .gap-0\@md {
-      --gap-x: 0px;
-      --gap-y: 0px;
+      --gap-x: 0;
+      --gap-y: 0;
     }
 
     .gap-x-xxxxs\@md {
@@ -1423,7 +1422,7 @@ svg {
     }
 
     .gap-x-0\@md {
-      --gap-x: 0px;
+      --gap-x: 0;
     }
 
     .gap-y-xxxxs\@md {
@@ -1471,7 +1470,7 @@ svg {
     }
 
     .gap-y-0\@md {
-      --gap-y: 0px;
+      --gap-y: 0;
     }
 
   }
@@ -1655,8 +1654,8 @@ svg {
     }
 
     .gap-0\@lg {
-      --gap-x: 0px;
-      --gap-y: 0px;
+      --gap-x: 0;
+      --gap-y: 0;
     }
 
     .gap-x-xxxxs\@lg {
@@ -1704,7 +1703,7 @@ svg {
     }
 
     .gap-x-0\@lg {
-      --gap-x: 0px;
+      --gap-x: 0;
     }
 
     .gap-y-xxxxs\@lg {
@@ -1752,7 +1751,7 @@ svg {
     }
 
     .gap-y-0\@lg {
-      --gap-y: 0px;
+      --gap-y: 0;
     }
 
   }
@@ -1936,8 +1935,8 @@ svg {
     }
 
     .gap-0\@xl {
-      --gap-x: 0px;
-      --gap-y: 0px;
+      --gap-x: 0;
+      --gap-y: 0;
     }
 
     .gap-x-xxxxs\@xl {
@@ -1985,7 +1984,7 @@ svg {
     }
 
     .gap-x-0\@xl {
-      --gap-x: 0px;
+      --gap-x: 0;
     }
 
     .gap-y-xxxxs\@xl {
@@ -2033,7 +2032,7 @@ svg {
     }
 
     .gap-y-0\@xl {
-      --gap-y: 0px;
+      --gap-y: 0;
     }
 
   }
@@ -2047,8 +2046,8 @@ svg {
   --shadow-xs: 0 0.1px 0.3px rgba(175, 88, 88, 0.06), 0 1px 2px rgba(0, 0, 0, 0.12);
   --shadow-sm: 0 0.3px 0.4px rgba(0, 0, 0, 0.025), 0 0.9px 1.5px rgba(0, 0, 0, 0.05), 0 3.5px 6px rgba(0, 0, 0, 0.1);
   --shadow-md: 0 0.9px 1.5px rgba(0, 0, 0, 0.03), 0 3.1px 5.5px rgba(0, 0, 0, 0.08), 0 14px 25px rgba(0, 0, 0, 0.12);
-  --shadow-lg: 0 1.2px 1.9px -1px rgba(0, 0, 0, 0.014), 0 3.3px 5.3px -1px rgba(0, 0, 0, 0.038), 0 8.5px 12.7px -1px rgba(0, 0, 0, 0.085), 0 30px 42px -1px rgba(0, 0, 0, 0.15);
-  --shadow-xl: 0 1.5px 2.1px -6px rgba(0, 0, 0, 0.012), 0 3.6px 5.2px -6px rgba(0, 0, 0, 0.035), 0 7.3px 10.6px -6px rgba(0, 0, 0, 0.07), 0 16.2px 21.9px -6px rgba(0, 0, 0, 0.117), 0 46px 60px -6px rgba(0, 0, 0, 0.2);
+  --shadow-lg: 0 1.2px 1.9px -1px rgba(0, 0, 0, 0.014), 0 3.3px 5.3px -1px rgba(0, 0, 0, 0.038), 0 8.5px 12.7px -1px rgba(0, 0, 0, 0.085), 0 30 42px -1px rgba(0, 0, 0, 0.15);
+  --shadow-xl: 0 1.5px 2.1px -6px rgba(0, 0, 0, 0.012), 0 3.6px 5.2px -6px rgba(0, 0, 0, 0.035), 0 7.3px 10.6px -6px rgba(0, 0, 0, 0.07), 0 16.2px 21.9px -6px rgba(0, 0, 0, 0.117), 0 46px 60 -6px rgba(0, 0, 0, 0.2);
   --bounce: cubic-bezier(0.175, 0.885, 0.32, 1.275);
   --ease-in-out: cubic-bezier(0.645, 0.045, 0.355, 1);
   --ease-in: cubic-bezier(0.55, 0.055, 0.675, 0.19);
@@ -5159,13 +5158,13 @@ html:not(.js) .no-js\:is-hidden {
 }
 
 .backdrop-blur-10 {
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10);
+  backdrop-filter: blur(10);
 }
 
 .backdrop-blur-20 {
-  -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20);
+  backdrop-filter: blur(20);
 }
 
 .isolate {
@@ -5195,28 +5194,28 @@ html:not(.js) .no-js\:is-hidden {
 }
 
 .perspective-xs {
-  -webkit-perspective: 250px;
-  perspective: 250px;
+  -webkit-perspective: 250;
+  perspective: 250;
 }
 
 .perspective-sm {
-  -webkit-perspective: 500px;
-  perspective: 500px;
+  -webkit-perspective: 500;
+  perspective: 500;
 }
 
 .perspective-md {
-  -webkit-perspective: 1000px;
-  perspective: 1000px;
+  -webkit-perspective: 1000;
+  perspective: 1000;
 }
 
 .perspective-lg {
-  -webkit-perspective: 1500px;
-  perspective: 1500px;
+  -webkit-perspective: 1500;
+  perspective: 1500;
 }
 
 .perspective-xl {
-  -webkit-perspective: 3000px;
-  perspective: 3000px;
+  -webkit-perspective: 3000;
+  perspective: 3000;
 }
 
 @supports (--css: variables) {
@@ -11181,7 +11180,7 @@ mark {
 
 .btn:focus {
   outline: none;
-  box-shadow: 0px 0px 0px 2px hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.15);
+  box-shadow: 0 0 0 2px hsla(var(--color-contrast-higher-h), var(--color-contrast-higher-s), var(--color-contrast-higher-l), 0.15);
 }
 
 .btn:active {
@@ -11199,7 +11198,7 @@ mark {
 }
 
 .btn--primary:focus {
-  box-shadow: 0px 0px 0px 2px hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
+  box-shadow: 0 0 0 2px hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
 }
 
 .btn--subtle {
@@ -11217,7 +11216,7 @@ mark {
 }
 
 .btn--accent:focus {
-  box-shadow: 0px 0px 0px 2px hsla(var(--color-accent-h), var(--color-accent-s), var(--color-accent-l), 0.2);
+  box-shadow: 0 0 0 2px hsla(var(--color-accent-h), var(--color-accent-s), var(--color-accent-l), 0.2);
 }
 
 .btn--disabled,
@@ -11458,7 +11457,7 @@ mark {
 }
 
 .h-item-height {
-  height: 70px;
+  height: 70;
 }
 
 .__bg {
