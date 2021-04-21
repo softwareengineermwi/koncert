@@ -620,14 +620,6 @@ h4 {
   --text-vspace-multiplier: 1;
 }
 
-.btn {
-  line-height: 1.2;
-  box-shadow: var(--shadow-xs);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: 0.2s;
-}
-
 .btn:hover {
   cursor: pointer;
   box-shadow: var(--shadow-sm);
@@ -656,12 +648,8 @@ h4 {
   box-shadow: 0 0 0 2px hsla(var(--color-primary-h), var(--color-primary-s), var(--color-primary-l), 0.2);
 }
 
-.btn--lg {
-  font-size: 1.4em;
-}
-
 .h-item-height {
-  height: 70;
+  height: 70px;
 }
 
 .__bg {
@@ -681,47 +669,3 @@ h4 {
 .text-primary {
   color: #e02447;
 }
-
-/*! CSS Used from: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css */
-
-.fa {
-  display: inline-block;
-  font: normal normal normal 14px/1 FontAwesome;
-  font-size: inherit;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.fa-2x {
-  font-size: 2em;
-}
-
-.fa-facebook:before {
-  content: "\f09a";
-}
-
-.fa-bars:before {
-  content: "\f0c9";
-}
-
-/*! CSS Used fontfaces */
-
-@font-face {
-  font-family: cocogoose;
-  src: url(http://127.0.1:5500/koncert/assets/cocogoose/Cocogoose%5CPro-trial.ttf);
-}
-
-@font-face {
-  font-family: "FontAwesome";
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot#iefix&v=4.7.0") format("embedded-opentype"),
-    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"),
-    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"),
-    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"),
-    url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-/* */
