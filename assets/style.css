@@ -2193,14 +2193,17 @@ u {
   .text-component__block--right {
     width: 45%;
   }
+
   .text-component__block--left img,
   .text-component__block--right img {
     width: 100%;
   }
+
   .text-component__block--left {
     float: left;
     margin-right: calc(var(--space-unit) * 0.75 * var(--text-vspace-multiplier, 1));
   }
+
   .text-component__block--right {
     float: right;
     margin-left: calc(var(--space-unit) * 0.75 * var(--text-vspace-multiplier, 1));
@@ -2211,16 +2214,20 @@ u {
   .text-component__block--outset {
     width: calc(100% + 10.5 * var(--space-unit));
   }
+
   .text-component__block--outset img {
     width: 100%;
   }
+
   .text-component__block--outset:not(.text-component__block--right) {
     margin-left: calc(-5.25 * var(--space-unit));
   }
+
   .text-component__block--left,
   .text-component__block--right {
     width: 50%;
   }
+
   .text-component__block--right.text-component__block--outset {
     margin-right: calc(-5.25 * var(--space-unit));
   }
@@ -2296,6 +2303,7 @@ u {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
@@ -2307,6 +2315,7 @@ u {
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
   }
+
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
