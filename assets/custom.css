@@ -385,14 +385,17 @@ h4 {
 
 h1 {
   font-size: var(--text-xxl, 2.074em);
+  font-weight: 700;
 }
 
 h3 {
   font-size: var(--text-lg, 1.44em);
+  font-weight: 700;
 }
 
 h4 {
   font-size: var(--text-md, 1.2em);
+  font-weight: 700;
 }
 
 a {
@@ -494,10 +497,6 @@ a {
 .form-control[disabled],
 .form-control[readonly] {
   cursor: not-allowed;
-}
-
-.btn--lg {
-  font-size: var(--btn-font-size-lg, 1.4em);
 }
 
 .flex {
@@ -732,23 +731,29 @@ a {
   .flex\@sm {
     display: flex;
   }
+  
   .flex-column\@sm {
     flex-direction: column;
   }
+
   .text-center\@sm {
     text-align: center;
   }
+
   .hide\@sm {
     display: none !important;
   }
+
   .col-4\@sm {
     flex-basis: calc(33.33% - 0.01px - var(--gap-x, 0.75em));
     max-width: calc(33.33% - 0.01px - var(--gap-x, 0.75em));
   }
+
   .col-6\@sm {
     flex-basis: calc(50% - 0.01px - var(--gap-x, 0.75em));
     max-width: calc(50% - 0.01px - var(--gap-x, 0.75em));
   }
+
   .col-8\@sm {
     flex-basis: calc(66.66% - 0.01px - var(--gap-x, 0.75em));
     max-width: calc(66.66% - 0.01px - var(--gap-x, 0.75em));
@@ -759,12 +764,6 @@ a {
   .display\@sm {
     display: none !important;
   }
-}
-
-h1,
-h3,
-h4 {
-  font-weight: 700;
 }
 
 .text-component {
@@ -802,6 +801,7 @@ h4 {
 
 .btn--lg {
   font-size: 1.4em;
+  font-size: var(--btn-font-size-lg, 1.4em);
 }
 
 .ct__italic {
