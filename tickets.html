@@ -6,50 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Koncert Tickets</title>
-    <link rel="stylesheet" href="assets/style.css">
+    <!-- <link rel="stylesheet" href="assets/style.css"> -->
     <link rel="stylesheet" href="assets/custom.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <header class="">
-        <div class="container max-width-lg">
-            <div class="grid">
-                <div class="col-12 col-4@sm h-item-height flex items-center">
-                    <div class="logo display@sm hide@lg">
-                        <svg width="104" height="30" viewBox="0 0 104 30">
-                            <title>Go to homepage</title>
-                            <path
-                                d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z"
-                                fill="var(--color-contrast-higher)" />
-                            <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
-                        </svg>
+    <div class="bg-contrast-high">
+        <div class="container max-width-lg hide display@sm">
+            <ul class="flex gap-md padding-y-xxxs justify-end">
+                <li><a href="#"><i class="fa fa-facebook color-contrast-lower"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter color-contrast-lower"></i></a></li>
+                <li><a href="#" class="text-decoration-none color-contrast-lower">English</a></li>
+                <li><a href="#" class="text-decoration-none color-contrast-lower">My Account</a></li>
+                <li><a href="#" class="text-decoration-none color-contrast-lower">Logout</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="bg-cover bg-center bg-no-repeat">
+        <header class="bg-contrast-lower@sm">
+            <div class="container max-width-lg">
+                <div class="grid gap-sm">
+                    <div class="col-4@sm height-xxl flex items-center">
+                        <div class="logo hide display@sm">
+                            <a href="index.html">
+                                <svg width="104" height="30" viewBox="0 0 104 30">
+                                    <title>Go to homepage</title>
+                                    <path
+                                        d="M37.54 24.08V3.72h4.92v16.37h8.47v4zM60.47 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8 8 0 015.64-2.18 8.07 8.07 0 015.68 2.2 8.49 8.49 0 012 5.69 8.63 8.63 0 01-1.78 5.38 7.6 7.6 0 01-5.89 2.49zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.79 3-2.79 4.26.32 4.23 2.82 4.23zM95.49 24.37a7.82 7.82 0 01-5.73-2.25 8.36 8.36 0 01-2-5.62 8.32 8.32 0 012.08-5.71 8.4 8.4 0 0111.31 0 8.43 8.43 0 012 5.69 8.6 8.6 0 01-1.77 5.38 7.6 7.6 0 01-5.89 2.51zm0-3.67c2.42 0 2.73-3 2.73-4.23s-.31-4.26-2.73-4.26-2.8 3-2.8 4.26.31 4.23 2.83 4.23zM77.66 30c-5.74 0-7-3.25-7.23-4.52l4.6-.26c.41.91 1.17 1.41 2.76 1.41a2.45 2.45 0 002.82-2.53v-2.68a7 7 0 01-1.7 1.75 6.12 6.12 0 01-5.85-.08c-2.41-1.37-3-4.25-3-6.66 0-.89.12-3.67 1.45-5.42a5.67 5.67 0 014.64-2.4c1.2 0 3 .25 4.46 2.82V8.81h4.85v15.33a5.2 5.2 0 01-2.12 4.32A9.92 9.92 0 0177.66 30zm.15-9.66c2.53 0 2.81-2.69 2.81-3.91s-.31-4-2.81-4-2.81 2.8-2.81 4 .27 3.91 2.81 3.91zM55.56 3.72h9.81v2.41h-9.81z"
+                                        fill="var(--color-contrast-higher)" />
+                                    <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="hide@sm">
+                            <i class="fa fa-bars fa-2x"></i>
+                        </div>
                     </div>
 
-                    <div class="hide@sm">
-                        <i class="fa fa-bars fa-2x"></i>
-                    </div>
-                </div>
+                    <div class="col-8@sm height-xxl flex items-center justify-end display@sm hide display@sm">
+                        <div class="padding-right-lg">
+                            <ul class="flex gap-lg">
+                                <li><a href="about.html" class="text-decoration-none text-lg font-semibold">About</a>
+                                </li>
+                                <li><a href="tickets.html"
+                                        class="text-decoration-none text-lg font-semibold">Tickets</a></li>
+                            </ul>
+                        </div>
 
-                <div class="col-8@sm h-item-height flex items-center justify-end display@sm hide@lg">
-                    <div class="padding-right-lg">
-                        <ul class="flex gap-lg">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Tickets</a></li>
-                        </ul>
-                    </div>
-
-                    <div>
-                        <button class="border border-4 border-primary bg-opacity-100%">SIGN UP</button>
+                        <div>
+                            <button class="border border-4 border-primary bg-opacity-90% padding-sm">SIGN UP</button>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <main>
-        <div class=" padding-y-lg">
-            <div class="container max-width-lg">
+        <div class="padding-y-lg">
+            <div class="container max-width-sm">
                 <div>
                     <div class="text-component text-center">
                         <h3>Select tickets</h3>
@@ -57,23 +75,117 @@
                             class="border-top border-2 border-opacity-70% width-lg margin-auto margin-top-md padding-bottom-lg">
                         </div>
                     </div>
-    
-                    <div>
+
+                    <div class="padding-bottom-lg">
                         <button class="border padding-sm radius-xl width-100% ">STEP 1</button>
                     </div>
+
+                    <table class="width-100% ct--with-border">
+                        <thead>
+                            <td colspan="1">Ticket</td>
+                            <td colspan="1">Ticket</td>
+                            <td colspan="2">Ticket</td>
+                            <td colspan="1">Ticket</td>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td colspan="1">Date</td>
+                                <td colspan="1">15th Oct, 2020</td>
+                                <td colspan="2">16th Oct, 2020</td>
+                                <td colspan="1">17th Oct, 2020</td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1">Normal</td>
+                                <td colspan="1">
+                                    <div>
+                                        <h4>K599</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td colspan="2">
+                                    <div>
+                                        <h4>K599</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td colspan="1">
+                                    <div>
+                                        <h4>K599</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1">Members</td>
+                                <td colspan="1">
+                                    <div>
+                                        <h4>K399</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td colspan="2">
+                                    <div>
+                                        <h4>K399</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td colspan="1">
+                                    <div>
+                                        <h4>K399</h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
 
-                <div>
+                <div class="padding-top-lg">
                     <div class="text-component text-center">
                         <h3>Select yout lunch</h3>
                         <div
                             class="border-top border-2 border-opacity-70% width-lg margin-auto margin-top-md padding-bottom-lg">
                         </div>
                     </div>
-    
-                    <div>
+
+                    <div class="padding-bottom-lg">
                         <button class="border padding-sm radius-xl width-100% ">STEP 2</button>
                     </div>
+
+                    <table class="width-100% border text-center border-4 border-contrast-lower">
+                        <thead class=""></thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <div class="flex justify-center">
+                                        <h4>Menu 1 </h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="flex justify-center">
+                                        <h4>Menu 1 </h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="flex justify-center">
+                                        <h4>Menu 1 </h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="flex justify-center">
+                                        <h4>Menu 1 </h4>
+                                        <input type="radio">
+                                    </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -83,7 +195,7 @@
         <div class="bg-contrast-high padding-y-lg">
             <div class="container max-width-lg">
                 <div class="text-component text-center">
-                    <h3>Partners</h3>
+                    <h3 class="color-contrast-low">Partners</h3>
                     <div
                         class="border-top border-2 border-opacity-70% width-lg margin-auto margin-top-md padding-bottom-lg">
                     </div>
@@ -92,7 +204,7 @@
                 <div class="margin-top-lg">
                     <ul class="flex flex-wrap gap-lg flex-center">
                         <li>
-                            <svg class="customer-logos__logo color-contrast-medium" width="124" height="32"
+                            <svg class="customer-logos__logo color-contrast-low" width="124" height="32"
                                 viewBox="0 0 124 32">
                                 <title>CompanyX</title>
                                 <path d="M17,27A11,11,0,0,1,17,5V0a16,16,0,0,0,0,32Z" />
@@ -199,7 +311,7 @@
 
         <div class="padding-y-xl">
             <div class="container max-width-lg">
-                <div class="grid gap-lg">
+                <div class="grid gap-sm">
                     <div class="col-4">
                         <svg width="104" height="30" viewBox="0 0 104 30">
                             <title>Go to homepage</title>
