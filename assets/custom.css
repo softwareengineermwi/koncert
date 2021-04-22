@@ -1,6 +1,5 @@
 /*! CSS Used from: http://127.0.0.1:5500/koncert/assets/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 *,
@@ -385,7 +384,7 @@ h4 {
 h1 {
   font-size: var(--text-xxl, 2.074em);
   font-weight: 700;
-} 
+}
 
 h3 {
   font-size: var(--text-lg, 1.44em);
