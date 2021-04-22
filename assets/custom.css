@@ -68,10 +68,26 @@ button {
   border: 0;
   border-radius: 0;
   color: inherit;
-  line-height: inherit;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  box-shadow: var(--shadow-xs);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: 0.2s;
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  text-decoration: none;
+  line-height: 1;
+  font-size: var(--btn-font-size, 1em);
+  padding-top: var(--btn-padding-y, 0.5em);
+  padding-bottom: var(--btn-padding-y, 0.5em);
+  padding-left: var(--btn-padding-x, 0.75em);
+  padding-right: var(--btn-padding-x, 0.75em);
+  border-radius: var(--btn-radius, 0.25em);
 }
 
 img,
@@ -307,7 +323,7 @@ svg {
   --gap-x: var(--gap);
   --gap-y: var(--gap);
   --offset: var(--gap-x);
-  
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -399,22 +415,6 @@ a {
 
 .text-component > *:last-child {
   margin-bottom: 0;
-}
-
-.btn {
-  position: relative;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-  text-decoration: none;
-  line-height: 1;
-  font-size: var(--btn-font-size, 1em);
-  padding-top: var(--btn-padding-y, 0.5em);
-  padding-bottom: var(--btn-padding-y, 0.5em);
-  padding-left: var(--btn-padding-x, 0.75em);
-  padding-right: var(--btn-padding-x, 0.75em);
-  border-radius: var(--btn-radius, 0.25em);
 }
 
 .btn,
@@ -772,14 +772,6 @@ h4 {
   --text-vspace-multiplier: 1;
 }
 
-.btn {
-  line-height: 1.2;
-  box-shadow: var(--shadow-xs);
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transition: 0.2s;
-}
-
 .btn:hover {
   cursor: pointer;
   box-shadow: var(--shadow-sm);
@@ -834,18 +826,6 @@ h4 {
 
 .padding-xl {
   padding: var(--space-xl);
-}
-
-.bg-cover {
-  background-size: cover;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
 }
 
 .radius-xl {
