@@ -658,7 +658,7 @@ a {
 }
 
 .height-xl {
-  height:var(--size-xl, 4rem)
+  height: var(--size-xl, 4rem);
 }
 
 .max-width-lg {
@@ -666,7 +666,7 @@ a {
 }
 
 .max-width-md {
-  max-width:var(--max-width-md);
+  max-width: var(--max-width-md);
 }
 
 [class^="border-"],
@@ -829,7 +829,7 @@ a {
 }
 
 .ct__bg-p1 {
-  background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(./audience-members-hold-up-mobile-phones-filming-a-concert.jpg);
+  background: linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(./audience-members-hold-up-mobile-phones-filming-a-concert.jpg);
 }
 
 .text-primary {
@@ -868,6 +868,6 @@ td {
 }
 
 table {
-  table-layout:fixed;
-  width:100%;
+  table-layout: fixed;
+  width: 100%;
 }
