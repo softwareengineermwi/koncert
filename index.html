@@ -11,23 +11,24 @@
 </head>
 
 <body>
-    <div class="bg-contrast-high">
-        <div class="container max-width-lg hide display@sm">
-            <ul class="flex gap-md padding-y-xxxs justify-end">
-                <li><a href="#"><i class="fa fa-facebook color-contrast-lower"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter color-contrast-lower"></i></a></li>
-                <li><a href="#" class="text-decoration-none color-contrast-lower">English</a></li>
-                <li><a href="#" class="text-decoration-none color-contrast-lower">My Account</a></li>
-                <li><a href="#" class="text-decoration-none color-contrast-lower">Logout</a></li>
-            </ul>
-        </div>
-    </div>
+    <div class="hide display@sm">
+        <header class="bg-contrast-lower@sm bg-contrast-high">
+            <div class="bg-contrast-high">
+                <div class="container max-width-md">
+                    <ul class="flex padding-y-xxs justify-end">
+                        <li><a href="#"><i class="fa fa-facebook color-contrast-lower padding-x-sm"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter color-contrast-lower padding-x-sm"></i></a></li>
+                        <li><a href="#" class="text-decoration-none color-contrast-lower padding-x-sm">English</a></li>
+                        <li><a href="#" class="text-decoration-none color-contrast-lower padding-x-sm">My Account</a>
+                        </li>
+                        <li><a href="#" class="text-decoration-none color-contrast-lower">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
 
-    <div class="bg-cover bg-center bg-no-repeat bg-hero">
-        <header class="bg-contrast-lower@sm">
-            <div class="container max-width-lg">
+            <div class="container max-width-md">
                 <div class="grid gap-sm">
-                    <div class="col-4@sm height-xxl flex items-center">
+                    <div class="col-4@sm height-xl flex items-center">
                         <div class="logo hide display@sm">
                             <svg width="104" height="30" viewBox="0 0 104 30">
                                 <title>Go to homepage</title>
@@ -37,51 +38,59 @@
                                 <circle cx="15" cy="15" r="15" fill="var(--color-primary)" />
                             </svg>
                         </div>
-
-                        <div class="hide@sm">
-                            <i class="fa fa-bars fa-2x"></i>
-                        </div>
                     </div>
 
-                    <div class="col-8@sm height-xxl flex items-center justify-end display@sm hide display@sm">
+                    <div class="col-8@sm height-xl flex items-center justify-end display@sm hide display@sm">
                         <div class="padding-right-lg">
                             <ul class="flex gap-lg">
                                 <li><a href="about.html" class="text-decoration-none text-md font-semibold">About</a>
                                 </li>
                                 <li><a href="tickets.html"
-                                        class="text-decoration-none text-md font-semibold">Tickets</a></li>
+                                        class="text-decoration-none text-md font-semibold">Tickets</a>
+                                </li>
                             </ul>
                         </div>
 
                         <div>
-                            <button type="button" class="border border-4 border-primary bg-opacity-90% padding-y-xxxs padding-md">SIGN
+                            <button type="button"
+                                class="border border-4 border-primary bg-opacity-90% padding-y-xxxs padding-md">SIGN
                                 UP</button>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
+    </div>
 
-        <section class="hero padding-y-md">
-            <div class="container max-width-lg">
-                <div class="padding-bottom-md">
-                    <h3 class="text-primary lato font-light">"Hallelujah"</h3>
+    <div class="bg-cover bg-center bg-no-repeat bg-hero">
+        <section class="hero">
+            <div class="container max-width-md">
+                <div class="hide@sm padding-top-lg">
+                    <i class="fa fa-bars fa-2x"></i>
                 </div>
-                <h1 class="text-primary text-lg cocogoose">Witness the power of God annual concert</h1>
-                <div class="border border-4 border-contrast-lower padding-sm margin-y-md">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae quo, non placeat
-                        itaque, reprehenderit beatae asperiores magnam necessitatibus adipisci distinctio in quos, qui
-                        neque? Natus harum voluptatum itaque perspiciatis.</p>
+
+                <div class="padding-y-xl">
+                    <div class="padding-bottom-md">
+                        <h3 class="text-primary lato font-light">"Hallelujah"</h3>
+                    </div>
+                    <h1 class="text-primary text-lg cocogoose">Witness the power of God annual concert</h1>
+                    <div class="border border-4 border-contrast-lower padding-sm margin-y-md">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae quo, non
+                            placeat
+                            itaque, reprehenderit beatae asperiores magnam necessitatibus adipisci distinctio in quos,
+                            qui
+                            neque? Natus harum voluptatum itaque perspiciatis.</p>
+                    </div>
+                    <h3 class="font-bold cocogoose color-contrast-high">2021.04.25(WED) - 30(SUN)</h3>
+                    <h5 class="text-md ">@ Someplace In Ndola, Zambia</h5>
                 </div>
-                <h3 class="font-bold cocogoose color-contrast-high">2021.04.25(WED) - 30(SUN)</h3>
-                <h5 class="text-md ">@ Someplace In Ndola, Zambia</h5>
             </div>
         </section>
     </div>
 
     <main>
         <div class="bg-contrast-high padding-y-lg">
-            <div class="container max-width-lg">
+            <div class="container max-width-md">
                 <div class="text-component text-center">
                     <h3 class="color-contrast-low">Hallelujah</h3>
                     <div
@@ -124,15 +133,16 @@
 
                 <div class="padding-top-lg">
                     <div class="hide display@sm text-center">
-                        <a href="#">SEE THE WHOLE MENU</a>
+                        <a href="#" class="color-contrast-lower">SEE THE WHOLE MENU</a>
                     </div>
-                    <button type="button" class="hide@sm btn btn--primary btn--lg radius-0 width-100% padding-md">JOIN NOW</button>
+                    <button type="button" class="hide@sm btn btn--primary btn--lg radius-0 width-100% padding-md">JOIN
+                        NOW</button>
                 </div>
             </div>
         </div>
 
         <div class="padding-y-lg">
-            <div class="container max-width-lg">
+            <div class="container max-width-md">
                 <div class="text-component text-center">
                     <h3>Featured Pastors</h3>
                     <div
@@ -219,7 +229,7 @@
 
     <footer>
         <div class="bg-contrast-high padding-y-lg">
-            <div class="container max-width-lg">
+            <div class="container max-width-md">
                 <div class="text-component text-center">
                     <h3 class="color-contrast-low">Partners</h3>
                     <div
@@ -336,7 +346,7 @@
         </div>
 
         <div class="padding-y-xl">
-            <div class="container max-width-lg">
+            <div class="container max-width-md">
                 <div class="grid gap-sm">
                     <div class="col-4">
                         <svg width="104" height="30" viewBox="0 0 104 30">

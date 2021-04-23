@@ -657,8 +657,16 @@ a {
   height: var(--size-xxl, 6rem);
 }
 
+.height-xl {
+  height:var(--size-xl, 4rem)
+}
+
 .max-width-lg {
   max-width: var(--max-width-lg);
+}
+
+.max-width-md {
+  max-width:var(--max-width-md);
 }
 
 [class^="border-"],
@@ -719,7 +727,15 @@ a {
   background-repeat: no-repeat;
 }
 
+.flex-column {
+  flex-direction: column;
+}
+
 @media (min-width: 768px) {
+  .bg-contrast-lower\@sm {
+    background-color: var(--color-contrast-lower);
+  }
+
   h1 {
     font-size: 4em;
   }
@@ -730,6 +746,10 @@ a {
 
   .flex-column\@sm {
     flex-direction: column;
+  }
+
+  .flex-row\@sm {
+    flex-direction: row !important;
   }
 
   .text-center\@sm {
@@ -809,7 +829,7 @@ a {
 }
 
 .ct__bg-p1 {
-  background-image: url(./audience-members-hold-up-mobile-phones-filming-a-concert.jpg);
+  background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(./audience-members-hold-up-mobile-phones-filming-a-concert.jpg);
 }
 
 .text-primary {
@@ -845,4 +865,9 @@ thead {
 
 td {
   padding: 16px;
+}
+
+table {
+  table-layout:fixed;
+  width:100%;
 }
