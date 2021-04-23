@@ -10,6 +10,7 @@
 ​
 - HTML5
 - CSS3
+- CodyHouse Framework
 ​
 ## Live Demo
 ​
@@ -25,7 +26,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Install
 
-- Clone the git repository
+- Clone the github repository like so
 
 > run git clone https://github.com/themwi/koncert.git in your terminal
 
